@@ -1,7 +1,7 @@
 #include "template.hpp"
 
 /**
- * Note: Each 'A' can be swapped with 'B' only up to the first 'A' to its left
+ * Note: Each 'A' can be swapped with 'B' only up to the first 'A' to its right
  * The rightmost 'A' gathers all the 'B's that are to its right on the left side by getting swapped
  * Then the next rightmost 'A' gathers all the 'B's up to the previous rightmost 'A' (up to the index where 'A' stands originally)
  */
